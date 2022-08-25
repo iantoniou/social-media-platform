@@ -1,0 +1,17 @@
+table {
+  width: 100%;
+}
+
+.create-user-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2em;
+  margin-right: 3em;
+}
+
+.create-user-button {
+  align-self: flex-end;
+}

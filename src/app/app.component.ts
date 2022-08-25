@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { sidenavList } from './sidenav-list/sidenav.list';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'social-media-platform';
+  sidenavList = sidenavList;
 }

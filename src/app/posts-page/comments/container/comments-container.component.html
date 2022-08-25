@@ -1,0 +1,3 @@
+<h2><strong>Comments</strong></h2>
+<app-create-comment (createCommentOutput)="postComment($event)"></app-create-comment>
+<app-comments *ngFor="let comment of comments" [comment]="comment"></app-comments>
